@@ -18,19 +18,23 @@ body {
 --Lime-Green: rgb(49, 211, 92);
 --Bright-Cyan: hsl(192, 70%, 51%);
 --Grayish-Blue: hsl(233, 8%, 62%);
---Light-Grayish-Blue: hsl(220, 16%, 96%);
+--Light-Grayish-Blue: #f3f4f6;
 --Very-Light-Gray: hsl(0, 0%, 98%);
 --White: hsl(0, 0%, 100%);
 } 
 
-header {
-    background-color: var(--Light-Grayish-Blue);
+header  div{
+    max-width: 100%;
 }
 
 #navbar {
     max-width: 100% ;
     width: 85% ;
     left: 2em;
+}
+
+#noHover:hover {
+    background-color: transparent;
 }
 
 .circle {
