@@ -15,7 +15,7 @@ export default function Nav() {
 
    return  (
      <AppBar  color=' #f3f4f6' sx={{display: 'flex', padding: {
-        xs :'1.5em 1em',
+        xs :'1.2em 1em',
         md : '1em 1em'
      }, flexDirection: 'row', justifyContent: {
         xs : 'space-between',
