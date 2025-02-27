@@ -14,13 +14,13 @@ export default function Nav() {
     const navItem = ['Home', 'About','Contact', 'Blog', 'Careers'];
 
    return  (
-     <AppBar  color=' #f3f4f6' sx={{display: 'flex', padding: {
+     <AppBar id="bar"  sx={{display: 'flex', padding: {
         xs :'1.2em 1em',
         md : '1em 1em'
      }, flexDirection: 'row', justifyContent: {
         xs : 'space-between',
         md: 'space-around'
-     }, alignContent: 'center', alignItems: 'center' }}  >
+     }, alignContent: 'center', alignItems: 'center', background: ' #f3f4f6' }}  >
      <Toolbar>
       <IconButton id='noHover'>
       <img src={Logo} alt='' />
@@ -46,6 +46,8 @@ export default function Nav() {
           ) 
        })} 
      </Stack>
+    
+     </Toolbar>
      <Stack   sx={{
         display: {
             xs : 'none',
@@ -54,10 +56,9 @@ export default function Nav() {
         
         padding: '0 1em',
      }}>
-       <Button variant='contained' sx={{background: 'rgb(49, 211, 92)'}}  className='circle' >Request Invetation</Button>
+       <Button variant='contained'  sx={{textTransform: 'capitalize'}} className='circle btn' >Request Invite</Button>
      </Stack>
 
-     </Toolbar>
 
      <Button aria-label='Menu-buton' sx={{
         display: {

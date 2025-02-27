@@ -3,12 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './components/Nav/navbar'
+import Home from './Pages/Home'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <Nav />
+      <Home />
     </>
   )
 }
