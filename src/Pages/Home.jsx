@@ -20,7 +20,7 @@ export default function Home() {
             }}}>
                  <Typography component='h1' id="Home-Title" mb={3}  >Next generation <br /> digital banking</Typography>
                  <Typography component='p'  sx={{marginBottom: {
-                   sx: '1em',
+                   xs: '2em',
                    sm: '3em'
                  }
                  }} mb={3}>Take your financial life online. Your Easybank account will be a one-stop-shop 

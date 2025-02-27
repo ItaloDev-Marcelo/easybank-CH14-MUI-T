@@ -72,11 +72,11 @@ export default function Nav() {
             }
      </Button>
 
-     <Paper aria-label='NavBar' id='navbar' elevation={12} component='nav' sx={{display: 
+     <Paper aria-label='NavBar' id='navbar' elevation={15} component='nav' sx={{display: 
         {
            xs:  toggle ? 'flex' : 'none',
            md: 'none',
-        }, justifyContent: 'center' , alignItems: 'center', position : 'absolute', top: '10em', height: '300px'}}>
+        }, justifyContent: 'center' , alignItems: 'center', position : 'absolute', top: '7.7em', height: '300px'}}>
         <List id='list' >
             {
              navItem.map((navItem, index) => {
