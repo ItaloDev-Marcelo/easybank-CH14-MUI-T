@@ -35,6 +35,8 @@ body {
 
 .circle {
     border-radius: 25px !important;
+    transform: scale(1.1);
+    background: linear-gradient( 240deg ,rgb(49, 211, 92),hsl(192, 70%, 51%));
 }
 
 #l  {
@@ -116,6 +118,7 @@ li span {
 
 @media (min-width: 600px) {
 
+   
     
     .Home-content {
         position: relative;
@@ -194,6 +197,13 @@ li span {
 
 @media (min-width: 1200px)  {
  
+    .article {
+      padding-left: 8.5em !important;  
+    }
+
+    .article h4 {
+        margin-left: 1em;
+    }
 
     .intro {
         padding-top: 4em !important;

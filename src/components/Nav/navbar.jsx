@@ -56,7 +56,7 @@ export default function Nav() {
         
         padding: '0 1em',
      }}>
-       <Button variant='contained'  sx={{textTransform: 'capitalize'}} className='circle btn' >Request Invite</Button>
+       <Button variant='contained'  sx={{textTransform: 'capitalize'}} className='circle' >Request Invite</Button>
      </Stack>
 
 
