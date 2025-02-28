@@ -7,6 +7,28 @@ import Confetti from '../assets/images/image-confetti.jpg';
 
 export default [
     {
+        'id': 1,
+        'image':'' ,
+        'title': '', 
+        'subTitle':'' , 
+        'cardInfo': ''
+    },
+    {
+        'id': 2,
+        'image':'' ,
+        'title': '', 
+        'subTitle':'' , 
+        'cardInfo': ''
+    },
+    {
+        'id': 3,
+        'image':'' ,
+        'title': '', 
+        'subTitle':'' , 
+        'cardInfo': ''
+    },
+    {
+        'id': 4,
         'image':'' ,
         'title': '', 
         'subTitle':'' , 
