@@ -105,9 +105,18 @@ li span {
     background: linear-gradient( 240deg ,rgb(49, 211, 92),hsl(192, 70%, 51%));
 }
 
+
+.intro {
+    position: relative;
+    top: 0 !important   ;
+    background-color: var(--Light-Grayish-Blue);
+}
+
 /* tablet  */
 
 @media (min-width: 600px) {
+
+    
     .Home-content {
         position: relative;
         left: 4%;
@@ -127,14 +136,24 @@ li span {
     .btn {
         transform: scale(1.3);
     }
+
+    .mini-card:nth-of-type(1){
+    margin-left: 0;   
+    }  
     
 }
 
-
 @media (min-width: 1024px) {
+ 
+
+    .intro {
+        position: relative;
+        top: 1.4em !important  ;
+    }
+
     #Home {
         overflow-x: hidden;
-        position: absolute;
+        position: relative;
         top: 6em;
         background: url(./assets/images/bg-intro-desktop.svg) no-repeat;
         background-position:top -7em right -10em ;
@@ -176,6 +195,12 @@ li span {
 @media (min-width: 1200px)  {
  
 
+    .intro {
+        padding-top: 4em !important;
+        
+        padding-bottom: 4em !important;
+    }
+
     #l {
         
  position: relative;
@@ -185,7 +210,7 @@ li span {
     .Img-container img {
         position: relative;
         top: -3em;
-        max-width: 85%;
+        max-width: 95%;
         z-index: 1;
     }
 
@@ -210,6 +235,7 @@ li span {
     }
 
     .btn {
+        margin-top: -5em !important;
         margin-left: 1em !important;
     }
     
@@ -217,8 +243,14 @@ li span {
 }
 
 @media (min-width: 1280px)  {
+    
     #Home-Title {
         font-size: 2.7em;
+    }
+
+    .intro {
+        padding-left: 9.5em !important;
+        background-color: var(--Light-Grayish-Blue);
     }
 
 }
@@ -228,5 +260,10 @@ li span {
         position: relative;
         left: -8%;
     }
+
+    
+.intro {
+    top: -1em !important   ;
+}
 
 }
