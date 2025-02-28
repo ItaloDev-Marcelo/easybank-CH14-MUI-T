@@ -7,7 +7,10 @@ import CardActionArea from '@mui/material/CardActionArea';
 
 export default function Crads({image, title, subTitle, cardInfo}) {
   return (
-    <Card sx={{ maxWidth: '230px',  margin: {
+    <Card sx={{ maxWidth: {
+      xs: '300px',
+      md: '230px'
+    },  margin: {
       xs: '2em 0',
       md: '1.5em 1em'
     }, height: '430px'}}>

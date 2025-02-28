@@ -6,6 +6,7 @@ import Nav from './components/Nav/navbar'
 import Home from './Pages/Home'
 import { IntroPage } from './Pages/IntroPage'
 import { Article } from './Pages/Article'
+import Footer from './Pages/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +16,7 @@ function App() {
       <Home />
       <IntroPage/>
       <Article/>
+      <Footer/>
     </>
   )
 }
