@@ -13,7 +13,7 @@ export default function Crads({image, title, subTitle, cardInfo}) {
     },  margin: {
       xs: '2em 0',
       md: '1.5em 1em'
-    }, height: '430px'}}>
+    }, height: '450px'}}>
          <CardActionArea>
               <CardMedia component='img' 
               height='200'
