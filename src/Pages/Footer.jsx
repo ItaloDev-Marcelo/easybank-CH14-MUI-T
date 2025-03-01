@@ -9,7 +9,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import logo from  '../assets/images/logo.svg'
+import logo from  '../assets/images/dark.svg'
 
 export default function Footer() {
 
@@ -19,12 +19,12 @@ export default function Footer() {
   return (
     <Stack component='footer'  sx={{padding: {
        xs: '2em',
-       lg: '2em 8.5em'
+       lg: '2.5em 8.5em'
     }, color: '#fff'}} >
       <Grid container  >
          <Grid p={2} size={{ xs: 12, md: 4 }}>
-            <Stack component='div' direction='column' >
-            <Stack mb={3} justifyContent={{xs: 'center', md: 'flex-start'}}>
+            <Stack component='div' direction='column'  >
+            <Stack mb={3} alignItems={{xs: 'center', md: 'flex-start'}}>
               <img src={logo} alt='' id='footer-logo' />
             </Stack>
             <Stack  direction='row' justifyContent={{xs: 'center', md: 'flex-start'}} >
@@ -57,7 +57,7 @@ export default function Footer() {
             </Stack>
          </Grid>
          <Grid  size={{ xs: 12, md: 5 }}  >
-         <Stack  direction={{xs: 'column', md: 'row'}}   >
+         <Stack  direction={{xs: 'column', md: 'row'}} >
             <Stack id='md1' >
                <List>
                   {
@@ -83,7 +83,7 @@ export default function Footer() {
          </Stack>
          </Grid>
          <Grid size={{ xs: 12, md: 3 }}>
-         <Box sx={{padding: '1em'}}>
+         <Box sx={{padding: '1em', textAlign: {xs: 'center', md: 'left'}}}  >
          <Button variant="contained"  className="circle"  sx={{textTransform: 'capitalize', marginBottom: '1.3em'}} > Request Invite</Button>
          <Typography component='h6'>© Easybank. All Rights Reserved</Typography>
          </Box>

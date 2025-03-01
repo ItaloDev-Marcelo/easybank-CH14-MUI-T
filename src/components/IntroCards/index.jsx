@@ -24,8 +24,8 @@ export const MiniCards = ({Image, TpTitle, TpText}) => {
        <img src={Image} alt={TpTitle}/>
        </Box> 
        <Box className='card-content'>
-         <Typography component='h3' sx={{padding: '1em 0'}} >{TpTitle}</Typography>
-         <Typography component='p'>{TpText}</Typography>
+         <Typography component='h3' sx={{padding: '1em 0', fontSize: '1.3em', color: ' hsl(233, 26%, 24%)'}} >{TpTitle}</Typography>
+         <Typography component='p' sx={{color: 'hsl(233, 8%, 62%)'}}>{TpText}</Typography>
        </Box>
     </Box>
   )

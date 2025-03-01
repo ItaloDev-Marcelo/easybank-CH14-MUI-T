@@ -19,10 +19,10 @@ export default function Crads({image, title, subTitle, cardInfo}) {
               height='200'
               image={image}
               alt={title} />
-              <CardContent>
-                <Typography component='h5'>{title} </Typography>
-                <Typography component='h6'>{subTitle} </Typography>
-                <Typography  variant='body'>{cardInfo}</Typography>
+              <CardContent sx={{padding: '2em'}} >
+                <Typography component='h5' color=' hsl(233, 8%, 62%)' fontSize='0.6em' margin='0 0 1em 0'>{title} </Typography>
+                <Typography component='h6' color='hsl(233, 26%, 24%)'  margin='0 0 .5em 0' fontWeight='500'>{subTitle} </Typography>
+                <Typography  variant='body' mb='0.5em' fontSize='.9em'  color=' hsl(233, 8%, 62%)'>{cardInfo}</Typography>
               </CardContent>
          </CardActionArea>
     </Card>

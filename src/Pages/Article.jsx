@@ -11,7 +11,7 @@ export const Article = () => {
       md: '5em 1em'
     }}}>
         <Box paddingTop={2} paddingBottom={2}>
-            <Typography component='h4'>Latest Articles</Typography>
+            <Typography component='h4' fontSize='2em' m='2em 0 .5em 0' color='hsl(233, 26%, 24%)'>Latest Articles</Typography>
         </Box>
         <Box className='Article-card-Container' sx={{display: 'flex',flexDirection: {
           xs: 'column',

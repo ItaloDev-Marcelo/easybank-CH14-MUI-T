@@ -38,7 +38,8 @@ export default function Nav() {
         },
         margin: '0 2.5em',
         padding: '0 2em',
-        width: '350px'
+        width: '350px',
+        position:'relative'
      }} direction='row'  p={2}>
        {navItem.map((Item)  => {
           return (
